@@ -1,0 +1,41 @@
+﻿@page "/calificaciones"
+
+<PageTitle>Calificaciones</PageTitle>
+
+<h4 class="fw-bold text-danger mb-3">Registro de Calificaciones</h4>
+
+<table class="table table-bordered table-hover align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>Alumno</th>
+            <th>Materia</th>
+            <th>Profesor</th>
+            <th style="width: 150px;" class="text-center">Nota</th>
+            <th style="width: 120px;" class="text-center">Acción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>García, Carlos</td>
+            <td>Matemáticas</td>
+            <td>Prof. Roberto Gómez</td>
+            <td>
+                <input type="number" class="form-control form-control-sm text-center" placeholder="Ej: 18" />
+            </td>
+            <td class="text-center">
+                <button class="btn btn-sm btn-danger fw-bold w-100">Guardar</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Mendoza, Ana</td>
+            <td>Historia</td>
+            <td>Prof. María López</td>
+            <td>
+                <input type="number" class="form-control form-control-sm text-center" placeholder="Ej: 15" />
+            </td>
+            <td class="text-center">
+                <button class="btn btn-sm btn-danger fw-bold w-100">Guardar</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

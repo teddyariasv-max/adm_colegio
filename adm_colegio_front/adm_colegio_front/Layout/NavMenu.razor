@@ -1,0 +1,75 @@
+﻿<div class="py-3 px-2">
+    <div class="text-uppercase fw-bold px-3 mb-2" style="font-size: 0.75rem; letter-spacing: 0.05rem; color: #64748b;">
+        Menú Principal
+    </div>
+
+    <nav class="nav flex-column gap-1">
+        <div class="nav-item">
+            <NavLink class="nav-link rounded-3 px-3 py-2 d-flex align-items-center gap-2" href="" Match="NavLinkMatch.All">
+                <i class="bi bi-house-door-fill fs-5"></i>
+                <span>Inicio</span>
+            </NavLink>
+        </div>
+
+        <div class="nav-item">
+            <NavLink class="nav-link rounded-3 px-3 py-2 d-flex align-items-center gap-2" href="reporte-consolidado">
+                <i class="bi bi-file-earmark-bar-graph-fill fs-5"></i>
+                <span>Reporte Consolidado</span>
+            </NavLink>
+        </div>
+
+        <div class="nav-item">
+            <NavLink class="nav-link rounded-3 px-3 py-2 d-flex align-items-center gap-2" href="alumnos">
+                <i class="bi bi-file-earmark-bar-graph-fill fs-5"></i>
+                <span>Alumnos</span>
+            </NavLink>
+        </div>
+
+        <div class="nav-item">
+            <NavLink class="nav-link rounded-3 px-3 py-2 d-flex align-items-center gap-2" href="profesores">
+                <i class="bi bi-file-earmark-bar-graph-fill fs-5"></i>
+                <span>Profesores</span>
+            </NavLink>
+        </div>
+
+        <div class="nav-item">
+            <NavLink class="nav-link rounded-3 px-3 py-2 d-flex align-items-center gap-2" href="materias">
+                <i class="bi bi-file-earmark-bar-graph-fill fs-5"></i>
+                <span>Materias</span>
+            </NavLink>
+        </div>
+
+        <div class="nav-item">
+            <NavLink class="nav-link rounded-3 px-3 py-2 d-flex align-items-center gap-2" href="calificaciones">
+                <i class="bi bi-file-earmark-bar-graph-fill fs-5"></i>
+                <span>Calificaciones</span>
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+<style>
+    /* Forzar texto oscuro y legible sobre fondo blanco */
+    .nav-link {
+        color: #1e293b !important;
+        font-weight: 600;
+        transition: all 0.2s ease-in-out;
+    }
+
+        /* Estado Hover (al pasar el ratón) */
+        .nav-link:hover {
+            background-color: #fff1f2 !important;
+            color: #881337 !important; /* Rojo académico */
+        }
+
+        /* Estado Seleccionado */
+        .nav-link.active {
+            background-color: #ffe4e6 !important;
+            color: #881337 !important;
+            font-weight: 700;
+        }
+</style>
+
+@code {
+    // Sin código complejo necesario por ahora
+}

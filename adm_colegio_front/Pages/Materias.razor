@@ -1,0 +1,85 @@
+﻿@page "/materias"
+@inject adm_colegio_front.Services.Materia_service materia_service
+
+<h3>Gestión de Materias</h3>
+
+@if (lista_materias == null)
+{
+    <p><em>Cargando materias...</em></p>
+}
+else
+{
+    <div class="card mb-4">
+        <div class="card-header">Registrar Nueva Materia</div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label>Código:</label>
+                <input class="form-control" @bind="nueva_materia.c_codigo" />
+            </div>
+            <div class="mb-3">
+                <label>Nombre de la Materia:</label>
+                <input class="form-control" @bind="nueva_materia.c_nombre" />
+            </div>
+            <button class="btn btn-primary" @onclick="guardar_materia">Guardar Materia</button>
+        </div>
+    </div>
+
+    <h4>Materias Disponibles</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var m in lista_materias)
+            {
+                <tr>
+                    <td>@m.i_id</td>
+                    <td>@m.c_codigo</td>
+                    <td>@m.c_nombre</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" @onclick="() => eliminar_materia(m.i_id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<adm_colegio_front.Models.Materia_dto>? lista_materias;
+    private adm_colegio_front.Models.Materia_dto nueva_materia = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await cargar_materias();
+    }
+
+    private async Task cargar_materias()
+    {
+        lista_materias = await materia_service.obtener_materias_async();
+    }
+
+    private async Task guardar_materia()
+    {
+        var resultado = await materia_service.crear_materia_async(nueva_materia);
+        if (resultado)
+        {
+            nueva_materia = new(); // Limpiar formulario
+            await cargar_materias();
+        }
+    }
+
+    private async Task eliminar_materia(int id)
+    {
+        var resultado = await materia_service.eliminar_materia_async(id);
+        if (resultado)
+        {
+            await cargar_materias();
+        }
+    }
+}

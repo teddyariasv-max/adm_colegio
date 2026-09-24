@@ -1,0 +1,67 @@
+﻿@page "/reportes"
+@inject adm_colegio_front.Services.Reporte_service reporte_service
+
+<h3>Reporte General de Calificaciones</h3>
+
+@if (lista_reporte == null)
+{
+    <p><em>Cargando reporte de calificaciones...</em></p>
+}
+else if (!lista_reporte.Any())
+{
+    <p><em>No hay datos para mostrar en el reporte.</em></p>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Año Académico</th>
+                    <th>Identificación Alumno</th>
+                    <th>Nombre Alumno</th>
+                    <th>Código Materia</th>
+                    <th>Nombre Materia</th>
+                    <th>Identificación Profesor</th>
+                    <th>Nombre Profesor</th>
+                    <th>Calificación Final</th>
+                    <th>Aprobó</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var r in lista_reporte)
+                {
+                    <tr>
+                        <td>@r.i_anio_academico</td>
+                        <td>@r.c_identificacion_alumno</td>
+                        <td>@r.c_nombre_alumno</td>
+                        <td>@r.c_codigo_materia</td>
+                        <td>@r.c_nombre_materia</td>
+                        <td>@r.c_identificacion_profesor</td>
+                        <td>@r.c_nombre_profesor</td>
+                        <td>@r.d_calificacion_final.ToString("0.00")</td>
+                        <td>
+                            @if (r.c_aprobo == "SI")
+                            {
+                                <span class="badge bg-success">SI</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">NO</span>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@code {
+    private List<adm_colegio_front.Models.Reporte_calificacion_dto>? lista_reporte;
+
+    protected override async Task OnInitializedAsync()
+    {
+        lista_reporte = await reporte_service.obtener_reporte_calificaciones_async();
+    }
+}

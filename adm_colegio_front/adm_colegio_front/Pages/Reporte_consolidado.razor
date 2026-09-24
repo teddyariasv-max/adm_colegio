@@ -1,0 +1,78 @@
+﻿@page "/reporte-consolidado"
+@inject HttpClient Http
+
+<PageTitle>Reporte Consolidado</PageTitle>
+
+<div class="mb-3">
+    <h4 class="fw-bold text-danger">Reporte Consolidado de Notas</h4>
+</div>
+
+<!-- Tabla Dinámica de Resultados -->
+<div class="table-responsive">
+    @if (reporteList == null)
+    {
+        <div class="alert alert-info" role="alert">
+            Cargando reporte consolidado...
+        </div>
+    }
+    else if (!reporteList.Any())
+    {
+        <div class="alert alert-warning" role="alert">
+            No se encontraron registros en el reporte consolidado.
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered table-hover align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th>Estudiante</th>
+                    <th>Materia</th>
+                    <th>Profesor</th>
+                    <th class="text-center">Nota</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in reporteList)
+                {
+                    <tr>
+                        <td>@item.c_nombre_alumno</td>
+                        <td>@item.c_nombre_materia</td>
+                        <td>@item.c_nombre_profesor</td>
+                        <td class="text-center fw-bold">@item.d_calificacion_final</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+@code {
+    private List<ReporteConsolidadoViewModel>? reporteList;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            reporteList = await Http.GetFromJsonAsync<List<ReporteConsolidadoViewModel>>("api/reportes_/calificaciones");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al cargar el reporte consolidado: {ex.Message}");
+        }
+    }
+
+    public class ReporteConsolidadoViewModel
+    {
+        public int i_matricula_id { get; set; }
+        public int i_anio_academico { get; set; }
+        public string c_identificacion_alumno { get; set; } = string.Empty;
+        public string c_nombre_alumno { get; set; } = string.Empty;
+        public string c_codigo_materia { get; set; } = string.Empty;
+        public string c_nombre_materia { get; set; } = string.Empty;
+        public string c_identificacion_profesor { get; set; } = string.Empty;
+        public string c_nombre_profesor { get; set; } = string.Empty;
+        public decimal d_calificacion_final { get; set; }
+        public string c_aprobo { get; set; } = string.Empty;
+    }
+}

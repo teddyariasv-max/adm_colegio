@@ -1,0 +1,138 @@
+﻿@page "/asignaciones"
+@inject adm_colegio_front.Services.Asignacion_service asignacion_service
+@inject adm_colegio_front.Services.Persona_service persona_service
+@inject adm_colegio_front.Services.Materia_service materia_service
+
+<h3>Gestión de Asignaciones de Materias a Profesores</h3>
+
+@if (!string.IsNullOrEmpty(mensaje_error))
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @mensaje_error
+        <button type="button" class="btn-close" @onclick="() => mensaje_error = string.Empty"></button>
+    </div>
+}
+
+@if (lista_asignaciones == null)
+{
+    <p><em>Cargando asignaciones...</em></p>
+}
+else
+{
+    <div class="card mb-4">
+        <div class="card-header">Nueva Asignación</div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label>Profesor:</label>
+                <select class="form-control" @bind="nueva_asignacion.i_profesor_id">
+                    <option value="0">Seleccione un profesor...</option>
+                    @if (lista_profesores != null)
+                    {
+                        @foreach (var prof in lista_profesores)
+                        {
+                            <option value="@prof.i_id">@prof.c_nombre @prof.c_apellido (@prof.c_identificacion)</option>
+                        }
+                    }
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label>Materia:</label>
+                <select class="form-control" @bind="nueva_asignacion.i_materia_id">
+                    <option value="0">Seleccione una materia...</option>
+                    @if (lista_materias != null)
+                    {
+                        @foreach (var mat in lista_materias)
+                        {
+                            <option value="@mat.i_id">@mat.c_nombre (@mat.c_codigo)</option>
+                        }
+                    }
+                </select>
+            </div>
+
+            <button class="btn btn-primary" @onclick="guardar_asignacion">Crear Asignación</button>
+        </div>
+    </div>
+
+    <h4>Listado de Asignaciones</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Profesor</th>
+                <th>Materia</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in lista_asignaciones)
+            {
+                <tr>
+                    <td>@a.i_id</td>
+                    <td>@(a.profesor != null ? $"{a.profesor.c_nombre} {a.profesor.c_apellido}" : a.i_profesor_id.ToString())</td>
+                    <td>@(a.materia != null ? a.materia.c_nombre : a.i_materia_id.ToString())</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" @onclick="() => eliminar_asignacion(a.i_id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<adm_colegio_front.Models.Asigna_materia_dto>? lista_asignaciones;
+    private List<adm_colegio_front.Models.Persona_dto>? lista_profesores;
+    private List<adm_colegio_front.Models.Materia_dto>? lista_materias;
+    private adm_colegio_front.Models.Asigna_materia_dto nueva_asignacion = new();
+    private string mensaje_error = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await cargar_datos();
+    }
+
+    private async Task cargar_datos()
+    {
+        lista_asignaciones = await asignacion_service.obtener_asignaciones_async();
+        var todas_personas = await persona_service.obtener_personas_async();
+        // Filtramos estrictamente los profesores (c_tipo_persona == "P")
+        lista_profesores = todas_personas.Where(p => p.c_tipo_persona == "P").ToList();
+        lista_materias = await materia_service.obtener_materias_async();
+    }
+
+    private async Task guardar_asignacion()
+    {
+        mensaje_error = string.Empty;
+        if (nueva_asignacion.i_profesor_id == 0 || nueva_asignacion.i_materia_id == 0)
+        {
+            mensaje_error = "Debe seleccionar un profesor y una materia válidos.";
+            return;
+        }
+
+        var (exito, mensaje) = await asignacion_service.crear_asignacion_async(nueva_asignacion);
+        if (exito)
+        {
+            nueva_asignacion = new();
+            await cargar_datos();
+        }
+        else
+        {
+            mensaje_error = mensaje;
+        }
+    }
+
+    private async Task eliminar_asignacion(int id)
+    {
+        mensaje_error = string.Empty;
+        var (exito, mensaje) = await asignacion_service.eliminar_asignacion_async(id);
+        if (exito)
+        {
+            await cargar_datos();
+        }
+        else
+        {
+            mensaje_error = mensaje;
+        }
+    }
+}

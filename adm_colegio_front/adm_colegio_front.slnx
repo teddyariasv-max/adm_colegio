@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../adm_colegio/adm_colegio/adm_colegio.csproj" />
+  <Project Path="adm_colegio_front/adm_colegio_front.csproj" />
+</Solution>

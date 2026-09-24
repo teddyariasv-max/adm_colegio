@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\pages\\profesores.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\pages\\profesores.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\pages\\alumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\pages\\alumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3795B03-5B71-1093-2C17-17A995D1C6C0}|..\\adm_colegio\\adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\data\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3795B03-5B71-1093-2C17-17A995D1C6C0}|..\\adm_colegio\\adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3795B03-5B71-1093-2C17-17A995D1C6C0}|..\\adm_colegio\\adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\controllers\\personas_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\pages\\reporte_consolidado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\pages\\reporte_consolidado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\adm_colegio_front.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\adm_colegio_front.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3795B03-5B71-1093-2C17-17A995D1C6C0}|..\\adm_colegio\\adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\controllers\\reportes_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3795B03-5B71-1093-2C17-17A995D1C6C0}|..\\adm_colegio\\adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3795B03-5B71-1093-2C17-17A995D1C6C0}|..\\adm_colegio\\adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\models\\matricula_calificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3795B03-5B71-1093-2C17-17A995D1C6C0}|..\\adm_colegio\\adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\models\\asigna_materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3795B03-5B71-1093-2C17-17A995D1C6C0}|..\\adm_colegio\\adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\controllers\\asignaciones_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3795B03-5B71-1093-2C17-17A995D1C6C0}|..\\adm_colegio\\adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\pages\\calificaciones.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\pages\\calificaciones.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\pages\\materias.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\pages\\materias.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\models\\models_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E80EF33-96B0-4A51-757C-83A0A9053632}|adm_colegio_front\\adm_colegio_front.csproj|solutionrelative:adm_colegio_front\\models\\models_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Models\\Profesor.cs",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Models\\Profesor.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Models\\Profesor.cs",
+              "RelativeToolTip": "adm_colegio_front\\Models\\Profesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T06:04:18.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Alumnos.razor",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Alumnos.razor",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Pages\\Alumnos.razor",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Alumnos.razor",
+              "RelativeToolTip": "adm_colegio_front\\Pages\\Alumnos.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAJAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T02:50:11.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "personas_controller.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\personas_controller.cs",
+              "RelativeDocumentMoniker": "..\\adm_colegio\\adm_colegio\\Controllers\\personas_controller.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\personas_controller.cs",
+              "RelativeToolTip": "..\\adm_colegio\\adm_colegio\\Controllers\\personas_controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T03:41:15.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "..\\adm_colegio\\adm_colegio\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Persona.cs",
+              "RelativeToolTip": "..\\adm_colegio\\adm_colegio\\Models\\Persona.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:00:57.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "db_context.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Data\\db_context.cs",
+              "RelativeDocumentMoniker": "..\\adm_colegio\\adm_colegio\\Data\\db_context.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Data\\db_context.cs",
+              "RelativeToolTip": "..\\adm_colegio\\adm_colegio\\Data\\db_context.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:10:53.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Profesores.razor",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Profesores.razor",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Pages\\Profesores.razor",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Profesores.razor",
+              "RelativeToolTip": "adm_colegio_front\\Pages\\Profesores.razor",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAowJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T02:50:34.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Models\\Alumno.cs",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Models\\Alumno.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Models\\Alumno.cs",
+              "RelativeToolTip": "adm_colegio_front\\Models\\Alumno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T03:24:18.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "adm_colegio_front\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T02:06:56.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Reporte_consolidado.razor",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Reporte_consolidado.razor",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Pages\\Reporte_consolidado.razor",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Reporte_consolidado.razor",
+              "RelativeToolTip": "adm_colegio_front\\Pages\\Reporte_consolidado.razor",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T02:46:15.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Asignaciones_controller.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\Asignaciones_controller.cs",
+              "RelativeDocumentMoniker": "..\\adm_colegio\\adm_colegio\\Controllers\\Asignaciones_controller.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\Asignaciones_controller.cs",
+              "RelativeToolTip": "..\\adm_colegio\\adm_colegio\\Controllers\\Asignaciones_controller.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:07:58.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Asigna_materia.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Asigna_materia.cs",
+              "RelativeDocumentMoniker": "..\\adm_colegio\\adm_colegio\\Models\\Asigna_materia.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Asigna_materia.cs",
+              "RelativeToolTip": "..\\adm_colegio\\adm_colegio\\Models\\Asigna_materia.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:08:15.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "adm_colegio_front",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\adm_colegio_front.csproj",
+              "RelativeDocumentMoniker": "adm_colegio_front\\adm_colegio_front.csproj",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\adm_colegio_front.csproj",
+              "RelativeToolTip": "adm_colegio_front\\adm_colegio_front.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-23T05:32:04.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Program.cs",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Program.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Program.cs",
+              "RelativeToolTip": "adm_colegio_front\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T00:25:21.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "reportes_controller.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\reportes_controller.cs",
+              "RelativeDocumentMoniker": "..\\adm_colegio\\adm_colegio\\Controllers\\reportes_controller.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\reportes_controller.cs",
+              "RelativeToolTip": "..\\adm_colegio\\adm_colegio\\Controllers\\reportes_controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:10:13.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Materia.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Materia.cs",
+              "RelativeDocumentMoniker": "..\\adm_colegio\\adm_colegio\\Models\\Materia.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Materia.cs",
+              "RelativeToolTip": "..\\adm_colegio\\adm_colegio\\Models\\Materia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:46:36.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Matricula_calificacion.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Matricula_calificacion.cs",
+              "RelativeDocumentMoniker": "..\\adm_colegio\\adm_colegio\\Models\\Matricula_calificacion.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Matricula_calificacion.cs",
+              "RelativeToolTip": "..\\adm_colegio\\adm_colegio\\Models\\Matricula_calificacion.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA8wAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:30:33.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Program.cs",
+              "RelativeDocumentMoniker": "..\\adm_colegio\\adm_colegio\\Program.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Program.cs",
+              "RelativeToolTip": "..\\adm_colegio\\adm_colegio\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwCcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T03:37:00.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Calificaciones.razor",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Calificaciones.razor",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Pages\\Calificaciones.razor",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Calificaciones.razor",
+              "RelativeToolTip": "adm_colegio_front\\Pages\\Calificaciones.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T02:51:28.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Materias.razor",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Materias.razor",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Pages\\Materias.razor",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Materias.razor",
+              "RelativeToolTip": "adm_colegio_front\\Pages\\Materias.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T02:50:57.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Pages\\Home.razor",
+              "RelativeToolTip": "adm_colegio_front\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T02:39:37.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "adm_colegio_front\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-23T02:35:12.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "adm_colegio_front\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwCwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T01:40:01.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Models_view.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Models\\Models_view.cs",
+              "RelativeDocumentMoniker": "adm_colegio_front\\Models\\Models_view.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio_front\\adm_colegio_front\\Models\\Models_view.cs",
+              "RelativeToolTip": "adm_colegio_front\\Models\\Models_view.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T00:40:59.172Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

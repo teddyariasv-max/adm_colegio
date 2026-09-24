@@ -1,0 +1,146 @@
+﻿@page "/profesores"
+@using adm_colegio_front.Models
+@using System.Net.Http.Json
+@inject HttpClient Http
+
+<PageTitle>Profesores</PageTitle>
+
+<h4 class="fw-bold text-danger mb-3">Gestión de Profesores</h4>
+
+@if (!string.IsNullOrEmpty(errorMensaje))
+{
+    <div class="alert alert-danger p-2 mb-3">@errorMensaje</div>
+}
+
+<!-- Formulario para Profesores -->
+<div class="card p-3 mb-3 bg-light">
+    <div class="row g-2">
+        <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="Identificación" @bind="nuevoProfesor.c_identificacion" />
+        </div>
+        <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="Nombre" @bind="nuevoProfesor.c_nombre" />
+        </div>
+        <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="Apellido" @bind="nuevoProfesor.c_apellido" />
+        </div>
+        <div class="col-md-2">
+            <input type="number" class="form-control" placeholder="Edad" @bind="nuevoProfesor.i_edad" />
+        </div>
+        <div class="col-md-1">
+            <button class="btn btn-danger w-100 fw-bold" @onclick="GuardarProfesor">Guardar</button>
+        </div>
+    </div>
+</div>
+
+<!-- Tabla de Profesores -->
+@if (profesores == null)
+{
+    <p><em>Cargando profesores...</em></p>
+}
+else
+{
+    <table class="table table-bordered align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>Documento</th>
+                <th>Nombres y Apellidos</th>
+                <th>Edad</th>
+                <th class="text-center" style="width: 120px;">Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var profesor in profesores)
+            {
+                <tr>
+                    <td>@profesor.c_identificacion</td>
+                    <td>@profesor.c_nombre @profesor.c_apellido</td>
+                    <td>@profesor.i_edad</td>
+                    <td class="text-center">
+                        <button class="btn btn-sm btn-danger" @onclick="() => EliminarProfesor(profesor.i_id)">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Profesor>? profesores;
+    private Profesor nuevoProfesor = new Profesor { c_tipo_persona = "P" };
+    private string errorMensaje = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarProfesores();
+    }
+
+    private async Task CargarProfesores()
+    {
+        try
+        {
+            errorMensaje = string.Empty;
+            // Filtra del endpoint general de personas únicamente los que tengan c_tipo_persona == "P"
+            var personas = await Http.GetFromJsonAsync<List<Profesor>>("api/personas");
+            profesores = personas?.Where(p => p.c_tipo_persona == "P").ToList() ?? new List<Profesor>();
+        }
+        catch (Exception ex)
+        {
+            profesores = new List<Profesor>();
+            errorMensaje = $"Error al cargar profesores: {ex.Message}";
+        }
+    }
+
+    private async Task GuardarProfesor()
+    {
+        try
+        {
+            errorMensaje = string.Empty;
+
+            if (!string.IsNullOrWhiteSpace(nuevoProfesor.c_nombre) && !string.IsNullOrWhiteSpace(nuevoProfesor.c_identificacion))
+            {
+                nuevoProfesor.c_tipo_persona = "P"; // Asegura que se guarde como profesor
+                var respuesta = await Http.PostAsJsonAsync("api/personas", nuevoProfesor);
+
+                if (respuesta.IsSuccessStatusCode)
+                {
+                    nuevoProfesor = new Profesor { c_tipo_persona = "P" };
+                    await CargarProfesores();
+                }
+                else
+                {
+                    var errorTexto = await respuesta.Content.ReadAsStringAsync();
+                    errorMensaje = $"Error del servidor: {errorTexto}";
+                }
+            }
+            else
+            {
+                errorMensaje = "El nombre y la identificación son obligatorios.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMensaje = $"Error al guardar: {ex.Message}";
+        }
+    }
+
+    private async Task EliminarProfesor(int id)
+    {
+        try
+        {
+            var respuesta = await Http.DeleteAsync($"api/personas/{id}");
+            if (!respuesta.IsSuccessStatusCode)
+            {
+                var errorBackend = await respuesta.Content.ReadAsStringAsync();
+                errorMensaje = !string.IsNullOrEmpty(errorBackend) ? errorBackend : "No se pudo eliminar el profesor.";
+            }
+            await CargarProfesores();
+        }
+        catch (Exception ex)
+        {
+            errorMensaje = $"Error al eliminar: {ex.Message}";
+        }
+    }
+}

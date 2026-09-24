@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "adm_colegio_front\\adm_colegio_front.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\adm_colegio\\adm_colegio\\adm_colegio.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\controllers\\matriculas_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\controllers\\matriculas_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\controllers\\asignaciones_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\controllers\\asignaciones_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\controllers\\personas_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\controllers\\personas_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\controllers\\reportes_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\controllers\\reportes_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\dtos\\reporte_calificacion_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\dtos\\reporte_calificacion_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\controllers\\materia_controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\controllers\\materia_controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\data\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\data\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\models\\matricula_calificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\models\\matricula_calificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|c:\\users\\teddy\\desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\models\\asigna_materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830BB4AC-3C41-4B1F-8132-5117A1CC2A33}|adm_colegio\\adm_colegio.csproj|solutionrelative:adm_colegio\\models\\asigna_materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "reportes_controller.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\reportes_controller.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Controllers\\reportes_controller.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\reportes_controller.cs",
+              "RelativeToolTip": "adm_colegio\\Controllers\\reportes_controller.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwCQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:12:30.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "personas_controller.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\personas_controller.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Controllers\\personas_controller.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\personas_controller.cs",
+              "RelativeToolTip": "adm_colegio\\Controllers\\personas_controller.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAA2wGEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:58:15.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Asignaciones_controller.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\Asignaciones_controller.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Controllers\\Asignaciones_controller.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\Asignaciones_controller.cs",
+              "RelativeToolTip": "adm_colegio\\Controllers\\Asignaciones_controller.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T04:02:01.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Matriculas_controller.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\Matriculas_controller.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Controllers\\Matriculas_controller.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\Matriculas_controller.cs",
+              "RelativeToolTip": "adm_colegio\\Controllers\\Matriculas_controller.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T04:02:38.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "reporte_calificacion_dto.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\DTOs\\reporte_calificacion_dto.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\DTOs\\reporte_calificacion_dto.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\DTOs\\reporte_calificacion_dto.cs",
+              "RelativeToolTip": "adm_colegio\\DTOs\\reporte_calificacion_dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:16:13.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Materia_controllers.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\Materia_controllers.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Controllers\\Materia_controllers.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Controllers\\Materia_controllers.cs",
+              "RelativeToolTip": "adm_colegio\\Controllers\\Materia_controllers.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T04:01:13.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Program.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Program.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Program.cs",
+              "RelativeToolTip": "adm_colegio\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T02:56:42.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\appsettings.json",
+              "RelativeDocumentMoniker": "adm_colegio\\appsettings.json",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\appsettings.json",
+              "RelativeToolTip": "adm_colegio\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-22T02:54:45.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "db_context.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Data\\db_context.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Data\\db_context.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Data\\db_context.cs",
+              "RelativeToolTip": "adm_colegio\\Data\\db_context.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvzQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:50:39.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Persona.cs",
+              "RelativeToolTip": "adm_colegio\\Models\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:18:29.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Materia.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Materia.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Models\\Materia.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Materia.cs",
+              "RelativeToolTip": "adm_colegio\\Models\\Materia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:25:33.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Matricula_calificacion.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Matricula_calificacion.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Models\\Matricula_calificacion.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Matricula_calificacion.cs",
+              "RelativeToolTip": "adm_colegio\\Models\\Matricula_calificacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:33:21.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Asigna_materia.cs",
+              "DocumentMoniker": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Asigna_materia.cs",
+              "RelativeDocumentMoniker": "adm_colegio\\Models\\Asigna_materia.cs",
+              "ToolTip": "C:\\Users\\teddy\\Desktop\\proyectos\\proyect .net\\adm_colegio\\adm_colegio\\Models\\Asigna_materia.cs",
+              "RelativeToolTip": "adm_colegio\\Models\\Asigna_materia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:28:04.227Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

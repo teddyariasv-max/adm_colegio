@@ -1,0 +1,154 @@
+﻿@page "/personas"
+@inject adm_colegio_front.Services.Persona_service persona_service
+
+<h3>Gestión de Personas (Profesores y Alumnos)</h3>
+
+@if (lista_personas == null)
+{
+    <p><em>Cargando personas...</em></p>
+}
+else
+{
+    <div class="card mb-4">
+        <div class="card-header">@(es_modo_edicion ? "Editar Persona" : "Agregar Nueva Persona")</div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label>Identificación:</label>
+                <input class="form-control" @bind="persona_actual.c_identificacion" />
+            </div>
+            <div class="mb-3">
+                <label>Nombre:</label>
+                <input class="form-control" @bind="persona_actual.c_nombre" />
+            </div>
+            <div class="mb-3">
+                <label>Apellido:</label>
+                <input class="form-control" @bind="persona_actual.c_apellido" />
+            </div>
+            <div class="mb-3">
+                <label>Edad:</label>
+                <input type="number" class="form-control" @bind="persona_actual.i_edad" />
+            </div>
+            <div class="mb-3">
+                <label>Dirección:</label>
+                <input class="form-control" @bind="persona_actual.c_direccion" />
+            </div>
+            <div class="mb-3">
+                <label>Teléfono:</label>
+                <input class="form-control" @bind="persona_actual.c_telefono" />
+            </div>
+            <div class="mb-3">
+                <label>Tipo de Persona:</label>
+                <select class="form-control" @bind="persona_actual.c_tipo_persona">
+                    <option value="A">Alumno</option>
+                    <option value="P">Profesor</option>
+                </select>
+            </div>
+
+            <button class="btn btn-primary" @onclick="guardar_o_actualizar">
+                @(es_modo_edicion ? "Actualizar Persona" : "Guardar Persona")
+            </button>
+
+            @if (es_modo_edicion)
+            {
+                <button class="btn btn-secondary ms-2" @onclick="cancelar_edicion">Cancelar</button>
+            }
+        </div>
+    </div>
+
+    <h4>Lista de Personas Registradas</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Identificación</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Tipo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in lista_personas)
+            {
+                <tr>
+                    <td>@p.i_id</td>
+                    <td>@p.c_identificacion</td>
+                    <td>@p.c_nombre</td>
+                    <td>@p.c_apellido</td>
+                    <td>@(p.c_tipo_persona == "P" ? "Profesor" : "Alumno")</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm me-1" @onclick="() => preparar_edicion(p)">Editar</button>
+                        <button class="btn btn-danger btn-sm" @onclick="() => eliminar_persona(p.i_id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<adm_colegio_front.Models.Persona_dto>? lista_personas;
+    private adm_colegio_front.Models.Persona_dto persona_actual = new();
+    private bool es_modo_edicion = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await cargar_personas();
+    }
+
+    private async Task cargar_personas()
+    {
+        lista_personas = await persona_service.obtener_personas_async();
+    }
+
+    private async Task guardar_o_actualizar()
+    {
+        bool resultado;
+        if (es_modo_edicion)
+        {
+            resultado = await persona_service.actualizar_persona_async(persona_actual.i_id, persona_actual);
+        }
+        else
+        {
+            resultado = await persona_service.crear_persona_async(persona_actual);
+        }
+
+        if (resultado)
+        {
+            cancelar_edicion();
+            await cargar_personas();
+        }
+    }
+
+    private void preparar_edicion(adm_colegio_front.Models.Persona_dto persona)
+    {
+        // Copiamos los datos para no alterar la tabla directamente antes de guardar
+        persona_actual = new adm_colegio_front.Models.Persona_dto
+        {
+            i_id = persona.i_id,
+            c_identificacion = persona.c_identificacion,
+            c_nombre = persona.c_nombre,
+            c_apellido = persona.c_apellido,
+            i_edad = persona.i_edad,
+            c_direccion = persona.c_direccion,
+            c_telefono = persona.c_telefono,
+            c_tipo_persona = persona.c_tipo_persona
+        };
+        es_modo_edicion = true;
+    }
+
+    private void cancelar_edicion()
+    {
+        persona_actual = new();
+        es_modo_edicion = false;
+    }
+
+    private async Task eliminar_persona(int id)
+    {
+        var resultado = await persona_service.eliminar_persona_async(id);
+        if (resultado)
+        {
+            await cargar_personas();
+        }
+    }
+}
